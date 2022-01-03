@@ -1,7 +1,9 @@
 <?php
 
-require_once("C:\Programowanie\TextCompressionWeb\php\models\StringHelper.php");
-require_once("C:\Programowanie\TextCompressionWeb\php\models\TextCompressionException.php");
+namespace Models;
+
+require_once(realpath(dirname(__FILE__, 1) . "\StringHelper.php"));
+require_once(realpath(dirname(__FILE__, 1) . "\TextCompressionException.php"));
 
 class Algorithm
 {

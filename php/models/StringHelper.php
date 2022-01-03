@@ -1,5 +1,7 @@
 <?php
 
+namespace Models;
+
 class StringHelper
 {
     public function containsSymbols(string $input):bool {

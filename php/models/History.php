@@ -1,5 +1,9 @@
 <?php
 
+namespace Models;
+
+require_once(realpath(dirname(__FILE__, 1) . "\TextCompressionException.php"));
+
 class History
 {
     public array $history;
@@ -47,5 +51,9 @@ class History
         }
 
         return "";
+    }
+
+    public function getHistorySize():int {
+        return count($this->history);
     }
 }

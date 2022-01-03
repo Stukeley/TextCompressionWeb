@@ -1,6 +1,10 @@
 <?php
 
+namespace Models;
+
+use Exception;
 use JetBrains\PhpStorm\Pure;
+use Throwable;
 
 class TextCompressionException extends Exception
 {
